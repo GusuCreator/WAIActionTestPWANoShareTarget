@@ -1,6 +1,6 @@
 {
-  "name": "Windows Action Sample PWA",
-  "short_name": "Windows Action Sample PWA",
+  "name": "Windows Action Sample PWA No Share Target",
+  "short_name": "WA Sample PWA No Share Target",
   "description": "A PWA demonstrating protocol handlers and share target",
   "lang": "en-US",
   "start_url": "./",
@@ -32,15 +32,5 @@
       "protocol": "web+pwa",
       "url": "./?protocol=%s"
     }
-  ],
-  "share_target": {
-    "action": "./share-target/",
-    "method": "POST",
-    "enctype": "multipart/form-data",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  }
+  ]
 }

@@ -221,18 +221,6 @@ navigator.serviceWorker.addEventListener('message', event => {
   }
 });
 
-// Register protocol handler
-if ('registerProtocolHandler' in navigator) {
-  try {
-    navigator.registerProtocolHandler('web+pwa',
-      `${window.location.origin}/WindowsAIActionTestPWA/?protocol=%s`,
-      'PWA Protocol Handler'
-    );
-  } catch (err) {
-    console.error('Protocol handler registration failed:', err);
-  }
-}
-
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   handleProtocolLaunch();
