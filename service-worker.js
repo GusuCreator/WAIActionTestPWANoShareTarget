@@ -1,5 +1,5 @@
 const CACHE_NAME = 'pwa-demo-v1';
-const BASE_PATH = '/WindowsAIActionTestPWA';
+const BASE_PATH = '/WAIActionTestPWANoShareTarget';
 const ASSETS = [
   `${BASE_PATH}/`,
   `${BASE_PATH}/index.html`,
